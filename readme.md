@@ -124,7 +124,7 @@ Because FlowDB uses synchronous file system operations, it will block the Node.j
 
 Contributions are welcome\! Please open an issue or submit a pull request.
 
-## License
+## License.
 
 Apache-2.0
 
