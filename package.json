@@ -1,18 +1,18 @@
 {
   "name": "flow.db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, human-friendly, file-based key-value database for Node.js",
   "main": "src/cjs/sync/FlowDB.js",
   "type": "commonjs",
   "exports": {
     ".": {
       "require": "./src/cjs/sync/FlowDB.js",
-      "import": "./src/esm/sync/FlowDB.js",
+      "import": "./src/esm/sync/FlowDB.mjs"
     },
     "./promises": {
       "require": "./src/cjs/async/FlowDB.js",
-      "import": "./src/esm/async/FlowDB.js",
-    },
+      "import": "./src/esm/async/FlowDB.mjs"
+    }
   },
   "keywords": [
     "flow.db",
@@ -22,7 +22,7 @@
     "library",
     "api",
     "unified",
-    "development",
+    "development"
     ],
   "author": "Koushik <iscordian.dev@gmail.com>",
   "license": "Apache-2.0",
